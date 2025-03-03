@@ -1,0 +1,68 @@
+{
+  "datos": [
+    {
+      "usuario": "Barry",
+      "contrasena": "B123",
+      "tipo": "profesor",
+      "id": "9b65"
+    },
+    {
+      "usuario": "Steven",
+      "contrasena": "123S",
+      "tipo": "profesor",
+      "id": "59af"
+    },
+    {
+      "id": "29b2",
+      "usuario": "Josebeth",
+      "contrasena": "1234",
+      "tipo": "estudiante"
+    },
+    {
+      "id": "1133",
+      "usuario": "Ariel",
+      "contrasena": "1234",
+      "tipo": "estudiante"
+    },
+    {
+      "id": "2b4e",
+      "usuario": "Patrick",
+      "contrasena": "1234",
+      "tipo": "estudiante"
+    },
+    {
+      "id": "2392",
+      "usuario": "Berny",
+      "contrasena": "1234",
+      "tipo": "estudiante"
+    },
+    {
+      "id": "c94c",
+      "usuario": "Fer",
+      "contrasena": "1234",
+      "tipo": "estudiante"
+    },
+    {
+      "id": "a18d",
+      "usuario": "Jocksan",
+      "contrasena": "1234",
+      "tipo": "estudiante"
+    },
+    {
+      "id": "540e",
+      "usuario": "Daniel",
+      "contrasena": "1234",
+      "tipo": "estudiante"
+    }
+  ],
+  "prestamo": [
+    {
+      "id": "7efa",
+      "nombreId": "Josebeth",
+      "sede": "Chacarita",
+      "fechaSalida": "2025-03-03",
+      "fechaRegreso": "2025-03-04",
+      "codigoCompu": "12356"
+    }
+  ]
+}

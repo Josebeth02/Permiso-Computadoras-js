@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="services/formulario.css">
+</head>
+<body>
+
+    <div id="mostrar2"></div>
+    <h1 id="infoEstudiante"></h1>
+
+   <div class="form">
+    <h1 class="title">Sistema de Permisos para Uso de Computadoras Académicas</h1>
+    <label class="label" for="Nombre o Id">Nombre o Id</label>
+    <br>
+    <input id="nombreId" class="input" checkedinputname placeholder="Nombre o ID" type="text">
+    <br>
+    <br>
+    <label class="label" for="Sede">Sede</label>
+    <br>
+    <select name="" id="sede" class="input">
+        <option value="Chacarita" selected>Chacarita</option>
+        <option value="Desamparados">Desamparados</option>
+        <option value="Nosara">Nosara</option>
+        <option value="Siquirres">Siquirres</option>
+        <option value="San Carlos">San Carlos</option>
+    </select>
+    <br>
+    <br>
+    <label class="label" for="FechaDeSalida">Fecha de salida</label>
+    <br>
+    <input id="fechaSalida" class="input" type="date">
+    <br>
+    <br>
+    <label class="label" for="FechaDeRegreso">Fecha de regreso</label>
+    <br>
+    <input id="fechaRegreso" class="input" type="date">
+    <br>
+    <br>
+    <label class="label" for="Codigo de la computadora">Codigo de la computadora</label>
+    <br>
+    <input id="codigoCompu" class="input" placeholder="Codigo de la computadora" type="text">
+    <h3 class="aceptoCond">Aceptación de condiciones:</h3>
+    <p class="condiciones">Si viajas en trasnporte público, debes resguardar tu equipo en tu bolso personal, no exponerlo.
+        <br>
+        <br>
+        Si llevas el equipo, procura ir acompañado.
+        <br>
+        <br>
+
+        Si está lloviendo, procura llevar el equipo en un vehíulo apropiado para evitar algún daño.
+        <br>
+        <br>
+        Evitar jugar, descargar o utilizar el equipo para otros motivos que no sean relacionados con el estudio.
+       <br>
+       <br>
+        El equipo será revisado antes y depués de ser entregado.
+        <br>
+        <br>
+         Cualquier alteración o instalación indebida podría resultar en lapérdida de privilegios.
+        <br>
+        <br>
+        Si retiras una computadora sin haber competado el formulario y la boleta física, podrías ser amonestado.
+        <br>
+        <br>
+        Este formuario debe llenarse junto con la boleta física, que debe estar firmada por la persona encarada.
+    </p>
+    <div class="div">
+    <input id="btn" type="radio" name="opcion1" value="opcion1">
+    <label class="acepto" for="">Acepto</label>
+    </div>
+    <br>
+     <button id="btnenviar" class="submit">Enviar</button>
+   </div>
+
+
+
+    <script type="module" src="formulario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
